@@ -1,0 +1,26 @@
+# Disk DescriptorFile
+version=1
+encoding="UTF-8"
+CID=fb3e3ba0
+parentCID=ffffffff
+isNativeSnapshot="no"
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 4192256 SPARSE "ubuntu-server10.10-ginga-i386-ncl30-s001.vmdk"
+RW 4192256 SPARSE "ubuntu-server10.10-ginga-i386-ncl30-s002.vmdk"
+RW 4192256 SPARSE "ubuntu-server10.10-ginga-i386-ncl30-s003.vmdk"
+RW 4192256 SPARSE "ubuntu-server10.10-ginga-i386-ncl30-s004.vmdk"
+RW 4192256 SPARSE "ubuntu-server10.10-ginga-i386-ncl30-s005.vmdk"
+RW 10240 SPARSE "ubuntu-server10.10-ginga-i386-ncl30-s006.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "1305"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "2cdaf4522fcd2dc6bbd826c3fb3e3ba0"
+ddb.uuid = "60 00 C2 9d fe 72 cb 53-85 2a 10 6f 3c 51 70 39"
+ddb.virtualHWVersion = "7"
