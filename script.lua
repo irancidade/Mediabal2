@@ -24,13 +24,13 @@ function sortear(img_exibida)
 end
 
 function contarAcertos(valorPressionado)
-	if valorPressionado=="RED" and (img_exibida==1 or img_exibida==2 or img_exibida==5 or img_exibida==12) then
+	if valorPressionado=="RED" and (img_exibida==1 or img_exibida==2 or img_exibida==3 or img_exibida==4) then
 		acertos = acertos +1
-	elseif valorPressionado=="GREEN" and (img_exibida==3 or img_exibida==6 or img_exibida==8 or img_exibida==10) then
+	elseif valorPressionado=="GREEN" and (img_exibida==5 or img_exibida==6 or img_exibida==7 or img_exibida==8) then
 		acertos = acertos +1
-	elseif valorPressionado=="YELLOW" and (img_exibida==4 or img_exibida==7 or img_exibida==9 or img_exibida==11) then
+	elseif valorPressionado=="YELLOW" and (img_exibida==9 or img_exibida==10 or img_exibida==11 or img_exibida==12) then
 		acertos = acertos +1
-	elseif valorPressionado=="BLUE" and (img_exibida==16 or img_exibida==13 or img_exibida==14 or img_exibida==15) then
+	elseif valorPressionado=="BLUE" and (img_exibida==13 or img_exibida==14 or img_exibida==15 or img_exibida==16) then
 		acertos = acertos +1
 	else
 		erros = rodada - acertos

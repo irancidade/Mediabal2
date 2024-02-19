@@ -119,7 +119,7 @@
 		<media id="botaoVerde" descriptor="dBotaoVerde" src = "Imagens/botoes/BotaoCantoD.png"/>
 		<media id="botaoAmarelo" descriptor="dBotaoAmarelo" src = "Imagens/botoes/BotaoCantoE.png"/>
 		<media id="botaoAzul" descriptor="dBotaoAzul" src = "Imagens/botoes/BotaoAposta.png"/>
-		<media  id="som" descriptor="dSom" src= "midia/Ice9.mp4" />
+		<!-- media  id="som" descriptor="dSom" src= "midia/Ice9.mp4" /-->
         
         
 		<media id="noDeConfig" type="application/x-ginga-settings">
@@ -158,18 +158,18 @@
 
 			<media id="Meiogol" src="Imagens/Chutes/video1.mp4" descriptor="dImagem"/>
 			<media id="Meiomiss" src="Imagens/Chutes/video2.mp4" descriptor="dImagem"/>
-			<media id="MeioMiss" src="Imagens/Chutes/video5.mp4" descriptor="dImagem"/>
-			<media id="Meiocentro" src="Imagens/Chutes/video12.mp4" descriptor="dImagem"/>
+			<media id="MeioMiss" src="Imagens/Chutes/video3.mp4" descriptor="dImagem"/>
+			<media id="Meiocentro" src="Imagens/Chutes/video4.mp4" descriptor="dImagem"/>
 
-			<media id="CantoDgol" src="Imagens/Chutes/video3.mp4" descriptor="dImagem"/>
+			<media id="CantoDgol" src="Imagens/Chutes/video5.mp4" descriptor="dImagem"/>
 			<media id="CantoDmiss" src="Imagens/Chutes/video6.mp4" descriptor="dImagem"/>
-			<media id="CantoDfora" src="Imagens/Chutes/video8.mp4" descriptor="dImagem"/>
-			<media id="CantoD" src="Imagens/Chutes/video10.png" descriptor="dImagem"/>
+			<media id="CantoDfora" src="Imagens/Chutes/video7.mp4" descriptor="dImagem"/>
+			<media id="CantoD" src="Imagens/Chutes/video8.png" descriptor="dImagem"/>
 
-			<media id="CantoEgol" src="Imagens/Chutes/video4.mp4" descriptor="dImagem"/>
-			<media id="CantoE" src="Imagens/Chutes/video7.mp4" descriptor="dImagem"/>
-			<media id="CantoEmiss" src="Imagens/Chutes/video9.mp4" descriptor="dImagem"/>
-			<media id="CantoEfora" src="Imagens/Chutes/video11.mp4" descriptor="dImagem"/>
+			<media id="CantoEgol" src="Imagens/Chutes/video9.mp4" descriptor="dImagem"/>
+			<media id="CantoE" src="Imagens/Chutes/video10.mp4" descriptor="dImagem"/>
+			<media id="CantoEmiss" src="Imagens/Chutes/video11.mp4" descriptor="dImagem"/>
+			<media id="CantoEfora" src="Imagens/Chutes/video12.mp4" descriptor="dImagem"/>
 
 			<media id="ApostD" src="Imagens/Chutes/video13.mp4" descriptor="dImagem"/>
 			<media id="Apostmiss" src="Imagens/Chutes/video14.mp4" descriptor="dImagem"/>
